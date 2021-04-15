@@ -8,3 +8,6 @@ Then follow the steps
  2. run the container
  
     ```  docker run  --rm hasans30/java:latest ```
+    
+## if you want to mount local folder inside the container use following option
+``` docker run  -v /mnt/c/t/volume/:/mydisk --rm -it hasans30/java ```
